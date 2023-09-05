@@ -1,12 +1,13 @@
 import "../component/styles/why.css";
+import { Icecream, Exercise, Sleep } from "../assets/svg";
 
 
 const Why = () => {
   return (
     <>
     <div className="bmi-details">
-      <div>
-        <img src='../src/assets/mobile.jpg' alt='someone eating' srcSet='' />
+      <div className="image-div">
+        <img src='../src/assets/mobile.png' alt='someone eating' srcSet='' />
         
       </div>
       <div>
@@ -21,17 +22,17 @@ const Why = () => {
       </div></div>
       <div className="improve">
         <div className="improve-card">
-          <img src="" alt="" />
+          <Icecream />
           <h2>Regular exercise</h2>
           <p>Exercise improves fitness, aids weight controle, elevates mood and reduces disease risk, fostering wellness and longevity</p>
         </div>
         <div className="improve-card">
-          <img src="" alt="" />
+        <Exercise />
           <h2>Regular exercise</h2>
           <p>Exercise improves fitness, aids weight controle, elevates mood and reduces disease risk, fostering wellness and longevity</p>
         </div>
         <div className="improve-card">
-          <img src="" alt="" />
+         <Sleep />
           <h2>Regular exercise</h2>
           <p>Exercise improves fitness, aids weight controle, elevates mood and reduces disease risk, fostering wellness and longevity</p>
         </div>
